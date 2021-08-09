@@ -14,4 +14,5 @@ home.html is an html file which is specific to the home page and uses JINJA2 to 
 fooddata.html is an html file which is specific to the sub page which shows a list of food trucks closest to the coordinates entered.  It makes use of JINJA2 to pass through the list of dictionaries that is outputted from User_Input.py
 
 In order to tackle this problem, I needed to go quite a bit out of my comfort zone.  I had never before done full stack development on my own nor had I needed to set up all the environments on my own to run a localhost.  The way I addressed this problem required me to do both of these tasks.  Additonally, this was my first problem in which I used Flask, wtforms, or pandas.  I have been learning Python for the last 2 months and this allowed me to comfortably execute what I've learned within the document User_Input.py.  Finally, this project has been a reintroduction to HTML for me which I had not used since a few years ago.
+
 Overall, I'm very happy with what I've been able to learn from this project and look forward to applying this knowledge elsewhere.
