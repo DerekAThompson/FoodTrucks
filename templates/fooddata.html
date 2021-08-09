@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}
+    Food Trucks Closest to Entered Latitude and Longitude
+{% endblock %}
+{% block content %}
+    <article class="media content-section">
+        <div class="media-body">
+            <table style="width:100%">
+                <tr>
+                    <th>Food Truck</th>
+                    <th>Address</th>
+                </tr>
+                {% for dict_item in userCoords %}
+                {% for key, value in dict_item.items() %}
+                    <tr>
+                        <td>
+                            {{ value }}
+                        </td>
+                        <td>
+                            {{ key }}
+                        </td>
+                    </tr>
+                {% endfor %} 
+                {% endfor %} 
+            </table>
+        </div>
+    </article>
+{% endblock %}
